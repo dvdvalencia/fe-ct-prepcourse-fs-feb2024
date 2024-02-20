@@ -5,8 +5,18 @@ function esPositivo(num) {
   // Si el número es negativo ---> "Es negativo".
   // Si el número es 0, devuelve false.
   // Tu código:
-  if (num > 0)
-  return num 
+// if (num%1!==0){
+//   return "Es positivo";
+// }else if (num===0){
+//   return false}
+//   else return "Es negativo"
+if (num > 0){
+  return"Es positivo";
+}else if (num === 0){
+  return false;
+}else if (num<0){
+  return"Es negativo";
+}else return null
 }
 
 module.exports = esPositivo;
