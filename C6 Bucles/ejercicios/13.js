@@ -5,6 +5,16 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
+if (num % 1 === 0) return true;
+else return false;
+
 }
+// if (num % 1!== 0) {
+//   return false
+// }
+// if(num >= 0){
+//   return true
+// }if(num <= 0){
+//   return true}
 
 module.exports = esEntero;

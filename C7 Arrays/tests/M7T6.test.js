@@ -1,4 +1,4 @@
-const invertirArray = require('../ejercicios/06');
+const rray = require('../ejercicios/06');
 
 test('Invertir array con elementos', () => {
    expect(invertirArray([1, 2, 3])).toEqual([3, 2, 1]);
